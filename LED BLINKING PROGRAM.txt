@@ -1,0 +1,22 @@
+#include<reg51.h>
+sbit led=p2^1;
+void delay(void);
+void main(void)
+{
+  led=0;
+  delay();
+  led=1;
+  delay();
+}
+void delay(void)
+{
+  int i;
+  int j;
+  for(i=0;i<10;i++)
+  {
+    for(j=0;j<1000;j++)
+    {
+    }
+  }
+}
+
